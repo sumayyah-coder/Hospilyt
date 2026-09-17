@@ -64,3 +64,10 @@ with open("data/patients.csv", "w", newline="") as file:
     writer.writeheader()
     writer.writerows(patients)
 
+with open("data/departments.csv", "w", newline="") as file: writer = csv.writer(file) writer.writerow(["Department", "Staff_Count", "Resource_Count"])
+for department in departments:
+    writer.writerow([
+        department,
+        department_info[department]["staff"],
+        department_info[department]["resources"]
+    ])
