@@ -59,4 +59,8 @@ with open("data/visits.csv", "w", newline="") as file:
     writer.writeheader()
     writer.writerows(visits)
 
+with open("data/patients.csv", "w", newline="") as file:
+    writer = csv.DictWriter(file, fieldnames=patients[0].keys())
+    writer.writeheader()
+    writer.writerows(patients)
 
