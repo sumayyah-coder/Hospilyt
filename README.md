@@ -1,6 +1,6 @@
-Hospilyt
+# Hospilyt
 
-Project Description
+## Project Description
 
 Hospilyt is a Python-based hospital data analysis project developed as a CS50P final project.
 
@@ -9,7 +9,7 @@ The project analyzes synthetic hospital data using Python and Pandas. It examine
 Hospilyt helps identify the busiest departments, compare waiting times, and provide insights into hospital operations.
 
 
-Project Files
+## Project Files
 
 - project.py: Contains the main program and hospital data analysis functions.
 - test_project.py: Contains tests for the project’s functions using pytest.
@@ -18,7 +18,8 @@ Project Files
 - data/: Contains CSV files for patients, visits, and departments.
 
 
-How to Run
+## How to Run
+
 1- Install the required libraries:
 python -m pip install -r requirements.txt
 
@@ -29,7 +30,7 @@ python project.py
 python -m pytest test_project.py -v
 
 
-Analysis Results
+## Analysis Results
 
 Hospilyt analyzes synthetic hospital data and provides the following results:
 
